@@ -1,0 +1,6 @@
+[submodule "ADXL355"]
+	path = ADXL355
+	url = https://github.com/markrad/ADXL355-CPP-SDK
+[submodule "Azure-SDK"]
+	path = Azure-SDK
+	url = https://github.com/azure/azure-iot-sdk-c.git
