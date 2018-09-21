@@ -1,0 +1,5 @@
+{
+	"ConnectionString" : "<Connection String>",
+	"DeviceId" : "<Device Id>",
+	"Protocol" : "MQTT | MQTTWS"
+}

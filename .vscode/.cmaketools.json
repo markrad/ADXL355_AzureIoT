@@ -1,0 +1,2909 @@
+{
+  "variant": {
+    "label": "Debug",
+    "keywordSettings": {
+      "buildType": "debug"
+    },
+    "description": "Emit debug information without performing optimizations"
+  },
+  "activeEnvironments": [],
+  "codeModel": {
+    "configurations": [
+      {
+        "name": "Debug",
+        "projects": [
+          {
+            "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+            "name": "ADXL355_AzureIoT",
+            "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+            "targets": [
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/libuhttp.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/azure_uhttp_c/uhttp.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-D_POSIX_C_SOURCE=200112L -fPIC  -Werror -Werror -Werror -DUSE_OPENSSL -g -fPIC   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1",
+                      "USE_OPENSSL"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/./inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/uhttp.c"
+                    ]
+                  }
+                ],
+                "fullName": "libuhttp.a",
+                "linkerLanguage": "C",
+                "name": "uhttp",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousCoverage",
+                      "build/CMakeFiles/ContinuousCoverage.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousCoverage",
+                "name": "ContinuousCoverage",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousTest",
+                      "build/CMakeFiles/ContinuousTest.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousTest",
+                "name": "ContinuousTest",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousConfigure",
+                      "build/CMakeFiles/ContinuousConfigure.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousConfigure",
+                "name": "ContinuousConfigure",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyCoverage",
+                      "build/CMakeFiles/NightlyCoverage.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyCoverage",
+                "name": "NightlyCoverage",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlySubmit",
+                      "build/CMakeFiles/NightlySubmit.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlySubmit",
+                "name": "NightlySubmit",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyUpdate",
+                      "build/CMakeFiles/NightlyUpdate.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyUpdate",
+                "name": "NightlyUpdate",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalCoverage",
+                      "build/CMakeFiles/ExperimentalCoverage.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalCoverage",
+                "name": "ExperimentalCoverage",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousStart",
+                      "build/CMakeFiles/ContinuousStart.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousStart",
+                "name": "ContinuousStart",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyStart",
+                      "build/CMakeFiles/NightlyStart.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyStart",
+                "name": "NightlyStart",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousSubmit",
+                      "build/CMakeFiles/ContinuousSubmit.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousSubmit",
+                "name": "ContinuousSubmit",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/Experimental",
+                      "build/CMakeFiles/Experimental.rule"
+                    ]
+                  }
+                ],
+                "fullName": "Experimental",
+                "name": "Experimental",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalUpdate",
+                      "build/CMakeFiles/ExperimentalUpdate.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalUpdate",
+                "name": "ExperimentalUpdate",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousBuild",
+                      "build/CMakeFiles/ContinuousBuild.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousBuild",
+                "name": "ContinuousBuild",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyConfigure",
+                      "build/CMakeFiles/NightlyConfigure.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyConfigure",
+                "name": "NightlyConfigure",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyMemCheck",
+                      "build/CMakeFiles/NightlyMemCheck.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyMemCheck",
+                "name": "NightlyMemCheck",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/Nightly",
+                      "build/CMakeFiles/Nightly.rule"
+                    ]
+                  }
+                ],
+                "fullName": "Nightly",
+                "name": "Nightly",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyTest",
+                      "build/CMakeFiles/NightlyTest.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyTest",
+                "name": "NightlyTest",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyBuild",
+                      "build/CMakeFiles/NightlyBuild.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyBuild",
+                "name": "NightlyBuild",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalMemCheck",
+                      "build/CMakeFiles/ExperimentalMemCheck.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalMemCheck",
+                "name": "ExperimentalMemCheck",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/Continuous",
+                      "build/CMakeFiles/Continuous.rule"
+                    ]
+                  }
+                ],
+                "fullName": "Continuous",
+                "name": "Continuous",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/NightlyMemoryCheck",
+                      "build/CMakeFiles/NightlyMemoryCheck.rule"
+                    ]
+                  }
+                ],
+                "fullName": "NightlyMemoryCheck",
+                "name": "NightlyMemoryCheck",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalStart",
+                      "build/CMakeFiles/ExperimentalStart.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalStart",
+                "name": "ExperimentalStart",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalBuild",
+                      "build/CMakeFiles/ExperimentalBuild.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalBuild",
+                "name": "ExperimentalBuild",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalConfigure",
+                      "build/CMakeFiles/ExperimentalConfigure.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalConfigure",
+                "name": "ExperimentalConfigure",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalTest",
+                      "build/CMakeFiles/ExperimentalTest.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalTest",
+                "name": "ExperimentalTest",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ExperimentalSubmit",
+                      "build/CMakeFiles/ExperimentalSubmit.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ExperimentalSubmit",
+                "name": "ExperimentalSubmit",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousUpdate",
+                      "build/CMakeFiles/ContinuousUpdate.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousUpdate",
+                "name": "ContinuousUpdate",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/serializer/libserializer.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/serializer",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/makefile",
+                      "inc/agenttypesystem.h",
+                      "inc/codefirst.h",
+                      "inc/commanddecoder.h",
+                      "inc/datamarshaller.h",
+                      "inc/datapublisher.h",
+                      "inc/dataserializer.h",
+                      "inc/iotdevice.h",
+                      "inc/jsondecoder.h",
+                      "inc/jsonencoder.h",
+                      "inc/multitree.h",
+                      "inc/schema.h",
+                      "inc/schemalib.h",
+                      "inc/schemaserializer.h",
+                      "inc/serializer.h",
+                      "inc/serializer_devicetwin.h",
+                      "inc/methodreturn.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-fPIC  -Werror -g   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/serializer/../deps/parson"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/serializer/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/inc"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/agenttypesystem.c",
+                      "src/codefirst.c",
+                      "src/commanddecoder.c",
+                      "src/datamarshaller.c",
+                      "src/datapublisher.c",
+                      "src/dataserializer.c",
+                      "src/iotdevice.c",
+                      "src/jsondecoder.c",
+                      "src/jsonencoder.c",
+                      "src/multitree.c",
+                      "src/schema.c",
+                      "src/schemalib.c",
+                      "src/schemaserializer.c",
+                      "src/methodreturn.c"
+                    ]
+                  }
+                ],
+                "fullName": "libserializer.a",
+                "linkerLanguage": "C",
+                "name": "serializer",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/serializer",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/libiothub_client.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/iothub.h",
+                      "inc/iothub_client_core.h",
+                      "inc/iothub_client_core_ll.h",
+                      "inc/iothub_client.h",
+                      "inc/iothub_client_core_common.h",
+                      "inc/iothub_client_ll.h",
+                      "inc/internal/iothub_client_diagnostic.h",
+                      "inc/iothub_client_options.h",
+                      "inc/internal/iothub_client_private.h",
+                      "inc/iothub_client_version.h",
+                      "inc/iothub_device_client.h",
+                      "inc/iothub_device_client_ll.h",
+                      "inc/iothub_module_client.h",
+                      "inc/iothub_module_client_ll.h",
+                      "inc/iothub_transport_ll.h",
+                      "inc/iothub_message.h",
+                      "inc/internal/iothubtransport.h",
+                      "inc/internal/blob.h",
+                      "inc/internal/iothub_client_ll_uploadtoblob.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-fPIC  -Werror -g   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/../deps/parson"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc/internal"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/inc"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/iothub.c",
+                      "src/iothub_client.c",
+                      "src/iothub_client_core.c",
+                      "src/iothub_client_core_ll.c",
+                      "src/iothub_client_diagnostic.c",
+                      "src/iothub_client_ll.c",
+                      "src/iothub_device_client.c",
+                      "src/iothub_device_client_ll.c",
+                      "src/iothub_message.c",
+                      "src/iothub_module_client.c",
+                      "src/iothub_module_client_ll.c",
+                      "src/iothubtransport.c",
+                      "src/version.c",
+                      "src/iothub_client_ll_uploadtoblob.c",
+                      "src/blob.c"
+                    ]
+                  }
+                ],
+                "fullName": "libiothub_client.a",
+                "linkerLanguage": "C",
+                "name": "iothub_client",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/libiothub_client_mqtt_ws_transport.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/internal/iothub_client_authorization.h",
+                      "inc/internal/iothub_client_retry_control.h",
+                      "inc/internal/iothubtransport_mqtt_common.h",
+                      "inc/iothubtransportmqtt_websockets.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-fPIC  -Werror -g   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/../deps/parson"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc/internal"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/inc"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/iothub_client_authorization.c",
+                      "src/iothub_client_retry_control.c",
+                      "src/iothubtransport_mqtt_common.c",
+                      "src/iothubtransportmqtt_websockets.c"
+                    ]
+                  }
+                ],
+                "fullName": "libiothub_client_mqtt_ws_transport.a",
+                "linkerLanguage": "C",
+                "name": "iothub_client_mqtt_ws_transport",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/libiothub_client_mqtt_transport.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/internal/iothub_client_authorization.h",
+                      "inc/internal/iothub_client_retry_control.h",
+                      "inc/internal/iothubtransport_mqtt_common.h",
+                      "inc/iothubtransportmqtt.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-fPIC  -Werror -g   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/../deps/parson"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc/internal"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/inc"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/iothub_client_authorization.c",
+                      "src/iothub_client_retry_control.c",
+                      "src/iothubtransport_mqtt_common.c",
+                      "src/iothubtransportmqtt.c"
+                    ]
+                  }
+                ],
+                "fullName": "libiothub_client_mqtt_transport.a",
+                "linkerLanguage": "C",
+                "name": "iothub_client_mqtt_transport",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/libiothub_client_http_transport.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/internal/iothub_client_authorization.h",
+                      "inc/internal/iothub_client_retry_control.h",
+                      "inc/iothubtransporthttp.h",
+                      "inc/iothub_transport_ll.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-fPIC  -Werror -g   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/../deps/parson"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc/internal"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/inc"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/iothub_client_authorization.c",
+                      "src/iothub_client_retry_control.c",
+                      "src/iothubtransporthttp.c"
+                    ]
+                  }
+                ],
+                "fullName": "libiothub_client_http_transport.a",
+                "linkerLanguage": "C",
+                "name": "iothub_client_http_transport",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/ADXL355/ADXL355_Sample"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/ADXL355",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "ADXL355.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-g  ",
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "ADXL355_Sample",
+                "linkLanguageFlags": "-g",
+                "linkLibraries": "-rdynamic libADXL355_I2C.a -lwiringPi",
+                "linkerLanguage": "CXX",
+                "name": "ADXL355_Sample",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/ADXL355",
+                "type": "EXECUTABLE"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/ADXL355/libADXL355_I2C.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/ADXL355",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "ADXL355.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-g  ",
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "ADXL355.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "libADXL355_I2C.a",
+                "linkerLanguage": "CXX",
+                "name": "ADXL355_I2C",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/ADXL355",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/libAzureIoTDevice.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CIoTHubDevice.h",
+                      "CIoTHubMessage.h",
+                      "CMapUtil.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-g  ",
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/./azure-iot-sdk-c/deps"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/./azure-iot-sdk-c/iothub_client/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/./azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "CIoTHubDevice.cpp",
+                      "CIoTHubMessage.cpp",
+                      "CMapUtil.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "libAzureIoTDevice.a",
+                "linkerLanguage": "CXX",
+                "name": "AzureIoTDevice",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/libparson.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "deps/parson/parson.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-fPIC  -Werror -g  ",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "deps/parson/parson.c"
+                    ]
+                  }
+                ],
+                "fullName": "libparson.a",
+                "linkerLanguage": "C",
+                "name": "parson",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/libaziotsharedutil.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/azure_c_shared_utility/agenttime.h",
+                      "inc/azure_c_shared_utility/base32.h",
+                      "inc/azure_c_shared_utility/base64.h",
+                      "inc/azure_c_shared_utility/buffer_.h",
+                      "inc/azure_c_shared_utility/connection_string_parser.h",
+                      "inc/azure_c_shared_utility/crt_abstractions.h",
+                      "inc/azure_c_shared_utility/constmap.h",
+                      "inc/azure_c_shared_utility/condition.h",
+                      "inc/azure_c_shared_utility/const_defines.h",
+                      "inc/azure_c_shared_utility/consolelogger.h",
+                      "inc/azure_c_shared_utility/doublylinkedlist.h",
+                      "inc/azure_c_shared_utility/envvariable.h",
+                      "inc/azure_c_shared_utility/gballoc.h",
+                      "inc/azure_c_shared_utility/gbnetwork.h",
+                      "inc/azure_c_shared_utility/gb_stdio.h",
+                      "inc/azure_c_shared_utility/gb_time.h",
+                      "inc/azure_c_shared_utility/gb_rand.h",
+                      "inc/azure_c_shared_utility/hmac.h",
+                      "inc/azure_c_shared_utility/hmacsha256.h",
+                      "inc/azure_c_shared_utility/http_proxy_io.h",
+                      "inc/azure_c_shared_utility/singlylinkedlist.h",
+                      "inc/azure_c_shared_utility/lock.h",
+                      "inc/azure_c_shared_utility/macro_utils.h",
+                      "inc/azure_c_shared_utility/map.h",
+                      "inc/azure_c_shared_utility/optimize_size.h",
+                      "inc/azure_c_shared_utility/platform.h",
+                      "inc/azure_c_shared_utility/refcount.h",
+                      "inc/azure_c_shared_utility/sastoken.h",
+                      "inc/azure_c_shared_utility/sha-private.h",
+                      "inc/azure_c_shared_utility/shared_util_options.h",
+                      "inc/azure_c_shared_utility/sha.h",
+                      "inc/azure_c_shared_utility/socketio.h",
+                      "inc/azure_c_shared_utility/stdint_ce6.h",
+                      "inc/azure_c_shared_utility/strings.h",
+                      "inc/azure_c_shared_utility/strings_types.h",
+                      "inc/azure_c_shared_utility/string_tokenizer.h",
+                      "inc/azure_c_shared_utility/string_tokenizer_types.h",
+                      "inc/azure_c_shared_utility/tlsio_options.h",
+                      "inc/azure_c_shared_utility/tickcounter.h",
+                      "inc/azure_c_shared_utility/threadapi.h",
+                      "inc/azure_c_shared_utility/xio.h",
+                      "inc/azure_c_shared_utility/umock_c_prod.h",
+                      "inc/azure_c_shared_utility/uniqueid.h",
+                      "inc/azure_c_shared_utility/uuid.h",
+                      "inc/azure_c_shared_utility/urlencode.h",
+                      "inc/azure_c_shared_utility/vector.h",
+                      "inc/azure_c_shared_utility/vector_types.h",
+                      "inc/azure_c_shared_utility/vector_types_internal.h",
+                      "inc/azure_c_shared_utility/xlogging.h",
+                      "inc/azure_c_shared_utility/constbuffer.h",
+                      "inc/azure_c_shared_utility/tlsio.h",
+                      "inc/azure_c_shared_utility/optionhandler.h",
+                      "adapters/linux_time.h",
+                      "inc/azure_c_shared_utility/wsio.h",
+                      "inc/azure_c_shared_utility/uws_client.h",
+                      "inc/azure_c_shared_utility/uws_frame_encoder.h",
+                      "inc/azure_c_shared_utility/utf8_checker.h",
+                      "inc/azure_c_shared_utility/httpapi.h",
+                      "inc/azure_c_shared_utility/httpapiex.h",
+                      "inc/azure_c_shared_utility/httpapiexsas.h",
+                      "inc/azure_c_shared_utility/httpheaders.h",
+                      "inc/azure_c_shared_utility/tlsio_openssl.h",
+                      "inc/azure_c_shared_utility/x509_openssl.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-D_POSIX_C_SOURCE=200112L -fPIC  -Werror -Werror -Werror -Wall -Wextra -Wformat=2 -Wformat-security -DUSE_OPENSSL -Wno-unused-variable -Wno-missing-braces -Wno-missing-field-initializers -Wno-format-nonliteral -g -fPIC   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/usr/include/arm-linux-gnueabihf"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/base32.c",
+                      "src/base64.c",
+                      "src/buffer.c",
+                      "src/connection_string_parser.c",
+                      "src/constbuffer.c",
+                      "src/consolelogger.c",
+                      "src/crt_abstractions.c",
+                      "src/constmap.c",
+                      "src/doublylinkedlist.c",
+                      "src/gballoc.c",
+                      "src/gbnetwork.c",
+                      "src/gb_stdio.c",
+                      "src/gb_time.c",
+                      "src/gb_rand.c",
+                      "src/hmac.c",
+                      "src/hmacsha256.c",
+                      "src/http_proxy_io.c",
+                      "src/xio.c",
+                      "src/singlylinkedlist.c",
+                      "src/map.c",
+                      "src/sastoken.c",
+                      "src/sha1.c",
+                      "src/sha224.c",
+                      "src/sha384-512.c",
+                      "src/strings.c",
+                      "src/string_tokenizer.c",
+                      "src/uuid.c",
+                      "src/urlencode.c",
+                      "src/usha.c",
+                      "src/vector.c",
+                      "src/xlogging.c",
+                      "src/optionhandler.c",
+                      "adapters/agenttime.c",
+                      "adapters/condition_pthreads.c",
+                      "adapters/lock_pthreads.c",
+                      "adapters/platform_linux.c",
+                      "adapters/socketio_berkeley.c",
+                      "adapters/tickcounter_linux.c",
+                      "adapters/threadapi_pthreads.c",
+                      "adapters/uniqueid_linux.c",
+                      "adapters/envvariable.c",
+                      "adapters/linux_time.c",
+                      "src/httpapiex.c",
+                      "src/httpapiexsas.c",
+                      "src/httpheaders.c",
+                      "adapters/httpapi_curl.c",
+                      "adapters/tlsio_openssl.c",
+                      "adapters/x509_openssl.c",
+                      "src/wsio.c",
+                      "src/uws_client.c",
+                      "src/uws_frame_encoder.c",
+                      "src/utf8_checker.c"
+                    ]
+                  }
+                ],
+                "fullName": "libaziotsharedutil.a",
+                "linkerLanguage": "C",
+                "name": "aziotsharedutil",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/libumqtt.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/azure_umqtt_c/mqtt_client.h",
+                      "inc/azure_umqtt_c/mqtt_codec.h",
+                      "inc/azure_umqtt_c/mqttconst.h",
+                      "inc/azure_umqtt_c/mqtt_message.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-D_POSIX_C_SOURCE=200112L -fPIC  -Werror -Werror -Werror -g -fPIC   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/deps/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/deps/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/mqtt_client.c",
+                      "src/mqtt_codec.c",
+                      "src/mqtt_message.c"
+                    ]
+                  }
+                ],
+                "fullName": "libumqtt.a",
+                "linkerLanguage": "C",
+                "name": "umqtt",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/ADXL355_AzureIoT"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "ConfigSettings.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-g  ",
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/./Azure-IoT-CPP-Wrapper"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "main.cpp",
+                      "ConfigSettings.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "ADXL355_AzureIoT",
+                "linkLanguageFlags": "-g",
+                "linkLibraries": "-rdynamic Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/libparson.a Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/libiothub_client.a Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/libparson.a Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/libiothub_client_http_transport.a Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/libiothub_client_mqtt_transport.a Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/libiothub_client_mqtt_ws_transport.a Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/libumqtt.a Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/libaziotsharedutil.a -lcurl -lssl -lcrypto -lpthread -lm -lrt -luuid",
+                "linkerLanguage": "CXX",
+                "name": "ADXL355_AzureIoT",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "EXECUTABLE"
+              },
+              {
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build",
+                "fileGroups": [
+                  {
+                    "isGenerated": true,
+                    "sources": [
+                      "build/CMakeFiles/ContinuousMemCheck",
+                      "build/CMakeFiles/ContinuousMemCheck.rule"
+                    ]
+                  }
+                ],
+                "fullName": "ContinuousMemCheck",
+                "name": "ContinuousMemCheck",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT",
+                "type": "UTILITY"
+              }
+            ]
+          },
+          {
+            "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/ADXL355",
+            "name": "ADXL355_Sample",
+            "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/ADXL355",
+            "targets": [
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/ADXL355/ADXL355_Sample"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/ADXL355",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "ADXL355.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-g  ",
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "main.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "ADXL355_Sample",
+                "linkLanguageFlags": "-g",
+                "linkLibraries": "-rdynamic libADXL355_I2C.a -lwiringPi",
+                "linkerLanguage": "CXX",
+                "name": "ADXL355_Sample",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/ADXL355",
+                "type": "EXECUTABLE"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/ADXL355/libADXL355_I2C.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/ADXL355",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "ADXL355.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-g  ",
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "ADXL355.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "libADXL355_I2C.a",
+                "linkerLanguage": "CXX",
+                "name": "ADXL355_I2C",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/ADXL355",
+                "type": "STATIC_LIBRARY"
+              }
+            ]
+          },
+          {
+            "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper",
+            "name": "AzureIoTCPPWrapper",
+            "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper",
+            "targets": [
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/libuhttp.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/azure_uhttp_c/uhttp.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-D_POSIX_C_SOURCE=200112L -fPIC  -Werror -Werror -Werror -DUSE_OPENSSL -g -fPIC   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1",
+                      "USE_OPENSSL"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/./inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/uhttp.c"
+                    ]
+                  }
+                ],
+                "fullName": "libuhttp.a",
+                "linkerLanguage": "C",
+                "name": "uhttp",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/serializer/libserializer.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/serializer",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/makefile",
+                      "inc/agenttypesystem.h",
+                      "inc/codefirst.h",
+                      "inc/commanddecoder.h",
+                      "inc/datamarshaller.h",
+                      "inc/datapublisher.h",
+                      "inc/dataserializer.h",
+                      "inc/iotdevice.h",
+                      "inc/jsondecoder.h",
+                      "inc/jsonencoder.h",
+                      "inc/multitree.h",
+                      "inc/schema.h",
+                      "inc/schemalib.h",
+                      "inc/schemaserializer.h",
+                      "inc/serializer.h",
+                      "inc/serializer_devicetwin.h",
+                      "inc/methodreturn.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-fPIC  -Werror -g   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/serializer/../deps/parson"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/serializer/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/inc"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/agenttypesystem.c",
+                      "src/codefirst.c",
+                      "src/commanddecoder.c",
+                      "src/datamarshaller.c",
+                      "src/datapublisher.c",
+                      "src/dataserializer.c",
+                      "src/iotdevice.c",
+                      "src/jsondecoder.c",
+                      "src/jsonencoder.c",
+                      "src/multitree.c",
+                      "src/schema.c",
+                      "src/schemalib.c",
+                      "src/schemaserializer.c",
+                      "src/methodreturn.c"
+                    ]
+                  }
+                ],
+                "fullName": "libserializer.a",
+                "linkerLanguage": "C",
+                "name": "serializer",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/serializer",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/libiothub_client.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/iothub.h",
+                      "inc/iothub_client_core.h",
+                      "inc/iothub_client_core_ll.h",
+                      "inc/iothub_client.h",
+                      "inc/iothub_client_core_common.h",
+                      "inc/iothub_client_ll.h",
+                      "inc/internal/iothub_client_diagnostic.h",
+                      "inc/iothub_client_options.h",
+                      "inc/internal/iothub_client_private.h",
+                      "inc/iothub_client_version.h",
+                      "inc/iothub_device_client.h",
+                      "inc/iothub_device_client_ll.h",
+                      "inc/iothub_module_client.h",
+                      "inc/iothub_module_client_ll.h",
+                      "inc/iothub_transport_ll.h",
+                      "inc/iothub_message.h",
+                      "inc/internal/iothubtransport.h",
+                      "inc/internal/blob.h",
+                      "inc/internal/iothub_client_ll_uploadtoblob.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-fPIC  -Werror -g   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/../deps/parson"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc/internal"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/inc"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/iothub.c",
+                      "src/iothub_client.c",
+                      "src/iothub_client_core.c",
+                      "src/iothub_client_core_ll.c",
+                      "src/iothub_client_diagnostic.c",
+                      "src/iothub_client_ll.c",
+                      "src/iothub_device_client.c",
+                      "src/iothub_device_client_ll.c",
+                      "src/iothub_message.c",
+                      "src/iothub_module_client.c",
+                      "src/iothub_module_client_ll.c",
+                      "src/iothubtransport.c",
+                      "src/version.c",
+                      "src/iothub_client_ll_uploadtoblob.c",
+                      "src/blob.c"
+                    ]
+                  }
+                ],
+                "fullName": "libiothub_client.a",
+                "linkerLanguage": "C",
+                "name": "iothub_client",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/libiothub_client_mqtt_ws_transport.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/internal/iothub_client_authorization.h",
+                      "inc/internal/iothub_client_retry_control.h",
+                      "inc/internal/iothubtransport_mqtt_common.h",
+                      "inc/iothubtransportmqtt_websockets.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-fPIC  -Werror -g   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/../deps/parson"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc/internal"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/inc"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/iothub_client_authorization.c",
+                      "src/iothub_client_retry_control.c",
+                      "src/iothubtransport_mqtt_common.c",
+                      "src/iothubtransportmqtt_websockets.c"
+                    ]
+                  }
+                ],
+                "fullName": "libiothub_client_mqtt_ws_transport.a",
+                "linkerLanguage": "C",
+                "name": "iothub_client_mqtt_ws_transport",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/libiothub_client_mqtt_transport.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/internal/iothub_client_authorization.h",
+                      "inc/internal/iothub_client_retry_control.h",
+                      "inc/internal/iothubtransport_mqtt_common.h",
+                      "inc/iothubtransportmqtt.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-fPIC  -Werror -g   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/../deps/parson"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc/internal"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/inc"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/iothub_client_authorization.c",
+                      "src/iothub_client_retry_control.c",
+                      "src/iothubtransport_mqtt_common.c",
+                      "src/iothubtransportmqtt.c"
+                    ]
+                  }
+                ],
+                "fullName": "libiothub_client_mqtt_transport.a",
+                "linkerLanguage": "C",
+                "name": "iothub_client_mqtt_transport",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/libiothub_client_http_transport.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/internal/iothub_client_authorization.h",
+                      "inc/internal/iothub_client_retry_control.h",
+                      "inc/iothubtransporthttp.h",
+                      "inc/iothub_transport_ll.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-fPIC  -Werror -g   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/../deps/parson"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc/internal"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/inc"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/iothub_client_authorization.c",
+                      "src/iothub_client_retry_control.c",
+                      "src/iothubtransporthttp.c"
+                    ]
+                  }
+                ],
+                "fullName": "libiothub_client_http_transport.a",
+                "linkerLanguage": "C",
+                "name": "iothub_client_http_transport",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/libAzureIoTDevice.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "CIoTHubDevice.h",
+                      "CIoTHubMessage.h",
+                      "CMapUtil.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-g  ",
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/./azure-iot-sdk-c/deps"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/./azure-iot-sdk-c/iothub_client/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/./azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "CXX",
+                    "sources": [
+                      "CIoTHubDevice.cpp",
+                      "CIoTHubMessage.cpp",
+                      "CMapUtil.cpp"
+                    ]
+                  }
+                ],
+                "fullName": "libAzureIoTDevice.a",
+                "linkerLanguage": "CXX",
+                "name": "AzureIoTDevice",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/libparson.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "deps/parson/parson.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-fPIC  -Werror -g  ",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "deps/parson/parson.c"
+                    ]
+                  }
+                ],
+                "fullName": "libparson.a",
+                "linkerLanguage": "C",
+                "name": "parson",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/libaziotsharedutil.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/azure_c_shared_utility/agenttime.h",
+                      "inc/azure_c_shared_utility/base32.h",
+                      "inc/azure_c_shared_utility/base64.h",
+                      "inc/azure_c_shared_utility/buffer_.h",
+                      "inc/azure_c_shared_utility/connection_string_parser.h",
+                      "inc/azure_c_shared_utility/crt_abstractions.h",
+                      "inc/azure_c_shared_utility/constmap.h",
+                      "inc/azure_c_shared_utility/condition.h",
+                      "inc/azure_c_shared_utility/const_defines.h",
+                      "inc/azure_c_shared_utility/consolelogger.h",
+                      "inc/azure_c_shared_utility/doublylinkedlist.h",
+                      "inc/azure_c_shared_utility/envvariable.h",
+                      "inc/azure_c_shared_utility/gballoc.h",
+                      "inc/azure_c_shared_utility/gbnetwork.h",
+                      "inc/azure_c_shared_utility/gb_stdio.h",
+                      "inc/azure_c_shared_utility/gb_time.h",
+                      "inc/azure_c_shared_utility/gb_rand.h",
+                      "inc/azure_c_shared_utility/hmac.h",
+                      "inc/azure_c_shared_utility/hmacsha256.h",
+                      "inc/azure_c_shared_utility/http_proxy_io.h",
+                      "inc/azure_c_shared_utility/singlylinkedlist.h",
+                      "inc/azure_c_shared_utility/lock.h",
+                      "inc/azure_c_shared_utility/macro_utils.h",
+                      "inc/azure_c_shared_utility/map.h",
+                      "inc/azure_c_shared_utility/optimize_size.h",
+                      "inc/azure_c_shared_utility/platform.h",
+                      "inc/azure_c_shared_utility/refcount.h",
+                      "inc/azure_c_shared_utility/sastoken.h",
+                      "inc/azure_c_shared_utility/sha-private.h",
+                      "inc/azure_c_shared_utility/shared_util_options.h",
+                      "inc/azure_c_shared_utility/sha.h",
+                      "inc/azure_c_shared_utility/socketio.h",
+                      "inc/azure_c_shared_utility/stdint_ce6.h",
+                      "inc/azure_c_shared_utility/strings.h",
+                      "inc/azure_c_shared_utility/strings_types.h",
+                      "inc/azure_c_shared_utility/string_tokenizer.h",
+                      "inc/azure_c_shared_utility/string_tokenizer_types.h",
+                      "inc/azure_c_shared_utility/tlsio_options.h",
+                      "inc/azure_c_shared_utility/tickcounter.h",
+                      "inc/azure_c_shared_utility/threadapi.h",
+                      "inc/azure_c_shared_utility/xio.h",
+                      "inc/azure_c_shared_utility/umock_c_prod.h",
+                      "inc/azure_c_shared_utility/uniqueid.h",
+                      "inc/azure_c_shared_utility/uuid.h",
+                      "inc/azure_c_shared_utility/urlencode.h",
+                      "inc/azure_c_shared_utility/vector.h",
+                      "inc/azure_c_shared_utility/vector_types.h",
+                      "inc/azure_c_shared_utility/vector_types_internal.h",
+                      "inc/azure_c_shared_utility/xlogging.h",
+                      "inc/azure_c_shared_utility/constbuffer.h",
+                      "inc/azure_c_shared_utility/tlsio.h",
+                      "inc/azure_c_shared_utility/optionhandler.h",
+                      "adapters/linux_time.h",
+                      "inc/azure_c_shared_utility/wsio.h",
+                      "inc/azure_c_shared_utility/uws_client.h",
+                      "inc/azure_c_shared_utility/uws_frame_encoder.h",
+                      "inc/azure_c_shared_utility/utf8_checker.h",
+                      "inc/azure_c_shared_utility/httpapi.h",
+                      "inc/azure_c_shared_utility/httpapiex.h",
+                      "inc/azure_c_shared_utility/httpapiexsas.h",
+                      "inc/azure_c_shared_utility/httpheaders.h",
+                      "inc/azure_c_shared_utility/tlsio_openssl.h",
+                      "inc/azure_c_shared_utility/x509_openssl.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-D_POSIX_C_SOURCE=200112L -fPIC  -Werror -Werror -Werror -Wall -Wextra -Wformat=2 -Wformat-security -DUSE_OPENSSL -Wno-unused-variable -Wno-missing-braces -Wno-missing-field-initializers -Wno-format-nonliteral -g -fPIC   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/usr/include/arm-linux-gnueabihf"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/base32.c",
+                      "src/base64.c",
+                      "src/buffer.c",
+                      "src/connection_string_parser.c",
+                      "src/constbuffer.c",
+                      "src/consolelogger.c",
+                      "src/crt_abstractions.c",
+                      "src/constmap.c",
+                      "src/doublylinkedlist.c",
+                      "src/gballoc.c",
+                      "src/gbnetwork.c",
+                      "src/gb_stdio.c",
+                      "src/gb_time.c",
+                      "src/gb_rand.c",
+                      "src/hmac.c",
+                      "src/hmacsha256.c",
+                      "src/http_proxy_io.c",
+                      "src/xio.c",
+                      "src/singlylinkedlist.c",
+                      "src/map.c",
+                      "src/sastoken.c",
+                      "src/sha1.c",
+                      "src/sha224.c",
+                      "src/sha384-512.c",
+                      "src/strings.c",
+                      "src/string_tokenizer.c",
+                      "src/uuid.c",
+                      "src/urlencode.c",
+                      "src/usha.c",
+                      "src/vector.c",
+                      "src/xlogging.c",
+                      "src/optionhandler.c",
+                      "adapters/agenttime.c",
+                      "adapters/condition_pthreads.c",
+                      "adapters/lock_pthreads.c",
+                      "adapters/platform_linux.c",
+                      "adapters/socketio_berkeley.c",
+                      "adapters/tickcounter_linux.c",
+                      "adapters/threadapi_pthreads.c",
+                      "adapters/uniqueid_linux.c",
+                      "adapters/envvariable.c",
+                      "adapters/linux_time.c",
+                      "src/httpapiex.c",
+                      "src/httpapiexsas.c",
+                      "src/httpheaders.c",
+                      "adapters/httpapi_curl.c",
+                      "adapters/tlsio_openssl.c",
+                      "adapters/x509_openssl.c",
+                      "src/wsio.c",
+                      "src/uws_client.c",
+                      "src/uws_frame_encoder.c",
+                      "src/utf8_checker.c"
+                    ]
+                  }
+                ],
+                "fullName": "libaziotsharedutil.a",
+                "linkerLanguage": "C",
+                "name": "aziotsharedutil",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/libumqtt.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/azure_umqtt_c/mqtt_client.h",
+                      "inc/azure_umqtt_c/mqtt_codec.h",
+                      "inc/azure_umqtt_c/mqttconst.h",
+                      "inc/azure_umqtt_c/mqtt_message.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-D_POSIX_C_SOURCE=200112L -fPIC  -Werror -Werror -Werror -g -fPIC   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/deps/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/deps/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/mqtt_client.c",
+                      "src/mqtt_codec.c",
+                      "src/mqtt_message.c"
+                    ]
+                  }
+                ],
+                "fullName": "libumqtt.a",
+                "linkerLanguage": "C",
+                "name": "umqtt",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt",
+                "type": "STATIC_LIBRARY"
+              }
+            ]
+          },
+          {
+            "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility",
+            "name": "azure_c_shared_utility",
+            "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility",
+            "targets": [
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/libaziotsharedutil.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/azure_c_shared_utility/agenttime.h",
+                      "inc/azure_c_shared_utility/base32.h",
+                      "inc/azure_c_shared_utility/base64.h",
+                      "inc/azure_c_shared_utility/buffer_.h",
+                      "inc/azure_c_shared_utility/connection_string_parser.h",
+                      "inc/azure_c_shared_utility/crt_abstractions.h",
+                      "inc/azure_c_shared_utility/constmap.h",
+                      "inc/azure_c_shared_utility/condition.h",
+                      "inc/azure_c_shared_utility/const_defines.h",
+                      "inc/azure_c_shared_utility/consolelogger.h",
+                      "inc/azure_c_shared_utility/doublylinkedlist.h",
+                      "inc/azure_c_shared_utility/envvariable.h",
+                      "inc/azure_c_shared_utility/gballoc.h",
+                      "inc/azure_c_shared_utility/gbnetwork.h",
+                      "inc/azure_c_shared_utility/gb_stdio.h",
+                      "inc/azure_c_shared_utility/gb_time.h",
+                      "inc/azure_c_shared_utility/gb_rand.h",
+                      "inc/azure_c_shared_utility/hmac.h",
+                      "inc/azure_c_shared_utility/hmacsha256.h",
+                      "inc/azure_c_shared_utility/http_proxy_io.h",
+                      "inc/azure_c_shared_utility/singlylinkedlist.h",
+                      "inc/azure_c_shared_utility/lock.h",
+                      "inc/azure_c_shared_utility/macro_utils.h",
+                      "inc/azure_c_shared_utility/map.h",
+                      "inc/azure_c_shared_utility/optimize_size.h",
+                      "inc/azure_c_shared_utility/platform.h",
+                      "inc/azure_c_shared_utility/refcount.h",
+                      "inc/azure_c_shared_utility/sastoken.h",
+                      "inc/azure_c_shared_utility/sha-private.h",
+                      "inc/azure_c_shared_utility/shared_util_options.h",
+                      "inc/azure_c_shared_utility/sha.h",
+                      "inc/azure_c_shared_utility/socketio.h",
+                      "inc/azure_c_shared_utility/stdint_ce6.h",
+                      "inc/azure_c_shared_utility/strings.h",
+                      "inc/azure_c_shared_utility/strings_types.h",
+                      "inc/azure_c_shared_utility/string_tokenizer.h",
+                      "inc/azure_c_shared_utility/string_tokenizer_types.h",
+                      "inc/azure_c_shared_utility/tlsio_options.h",
+                      "inc/azure_c_shared_utility/tickcounter.h",
+                      "inc/azure_c_shared_utility/threadapi.h",
+                      "inc/azure_c_shared_utility/xio.h",
+                      "inc/azure_c_shared_utility/umock_c_prod.h",
+                      "inc/azure_c_shared_utility/uniqueid.h",
+                      "inc/azure_c_shared_utility/uuid.h",
+                      "inc/azure_c_shared_utility/urlencode.h",
+                      "inc/azure_c_shared_utility/vector.h",
+                      "inc/azure_c_shared_utility/vector_types.h",
+                      "inc/azure_c_shared_utility/vector_types_internal.h",
+                      "inc/azure_c_shared_utility/xlogging.h",
+                      "inc/azure_c_shared_utility/constbuffer.h",
+                      "inc/azure_c_shared_utility/tlsio.h",
+                      "inc/azure_c_shared_utility/optionhandler.h",
+                      "adapters/linux_time.h",
+                      "inc/azure_c_shared_utility/wsio.h",
+                      "inc/azure_c_shared_utility/uws_client.h",
+                      "inc/azure_c_shared_utility/uws_frame_encoder.h",
+                      "inc/azure_c_shared_utility/utf8_checker.h",
+                      "inc/azure_c_shared_utility/httpapi.h",
+                      "inc/azure_c_shared_utility/httpapiex.h",
+                      "inc/azure_c_shared_utility/httpapiexsas.h",
+                      "inc/azure_c_shared_utility/httpheaders.h",
+                      "inc/azure_c_shared_utility/tlsio_openssl.h",
+                      "inc/azure_c_shared_utility/x509_openssl.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-D_POSIX_C_SOURCE=200112L -fPIC  -Werror -Werror -Werror -Wall -Wextra -Wformat=2 -Wformat-security -DUSE_OPENSSL -Wno-unused-variable -Wno-missing-braces -Wno-missing-field-initializers -Wno-format-nonliteral -g -fPIC   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/usr/include/arm-linux-gnueabihf"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/base32.c",
+                      "src/base64.c",
+                      "src/buffer.c",
+                      "src/connection_string_parser.c",
+                      "src/constbuffer.c",
+                      "src/consolelogger.c",
+                      "src/crt_abstractions.c",
+                      "src/constmap.c",
+                      "src/doublylinkedlist.c",
+                      "src/gballoc.c",
+                      "src/gbnetwork.c",
+                      "src/gb_stdio.c",
+                      "src/gb_time.c",
+                      "src/gb_rand.c",
+                      "src/hmac.c",
+                      "src/hmacsha256.c",
+                      "src/http_proxy_io.c",
+                      "src/xio.c",
+                      "src/singlylinkedlist.c",
+                      "src/map.c",
+                      "src/sastoken.c",
+                      "src/sha1.c",
+                      "src/sha224.c",
+                      "src/sha384-512.c",
+                      "src/strings.c",
+                      "src/string_tokenizer.c",
+                      "src/uuid.c",
+                      "src/urlencode.c",
+                      "src/usha.c",
+                      "src/vector.c",
+                      "src/xlogging.c",
+                      "src/optionhandler.c",
+                      "adapters/agenttime.c",
+                      "adapters/condition_pthreads.c",
+                      "adapters/lock_pthreads.c",
+                      "adapters/platform_linux.c",
+                      "adapters/socketio_berkeley.c",
+                      "adapters/tickcounter_linux.c",
+                      "adapters/threadapi_pthreads.c",
+                      "adapters/uniqueid_linux.c",
+                      "adapters/envvariable.c",
+                      "adapters/linux_time.c",
+                      "src/httpapiex.c",
+                      "src/httpapiexsas.c",
+                      "src/httpheaders.c",
+                      "adapters/httpapi_curl.c",
+                      "adapters/tlsio_openssl.c",
+                      "adapters/x509_openssl.c",
+                      "src/wsio.c",
+                      "src/uws_client.c",
+                      "src/uws_frame_encoder.c",
+                      "src/utf8_checker.c"
+                    ]
+                  }
+                ],
+                "fullName": "libaziotsharedutil.a",
+                "linkerLanguage": "C",
+                "name": "aziotsharedutil",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility",
+                "type": "STATIC_LIBRARY"
+              }
+            ]
+          },
+          {
+            "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c",
+            "name": "azure_iot_sdks",
+            "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c",
+            "targets": [
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/libuhttp.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/azure_uhttp_c/uhttp.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-D_POSIX_C_SOURCE=200112L -fPIC  -Werror -Werror -Werror -DUSE_OPENSSL -g -fPIC   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1",
+                      "USE_OPENSSL"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/./inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/uhttp.c"
+                    ]
+                  }
+                ],
+                "fullName": "libuhttp.a",
+                "linkerLanguage": "C",
+                "name": "uhttp",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/serializer/libserializer.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/serializer",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "src/makefile",
+                      "inc/agenttypesystem.h",
+                      "inc/codefirst.h",
+                      "inc/commanddecoder.h",
+                      "inc/datamarshaller.h",
+                      "inc/datapublisher.h",
+                      "inc/dataserializer.h",
+                      "inc/iotdevice.h",
+                      "inc/jsondecoder.h",
+                      "inc/jsonencoder.h",
+                      "inc/multitree.h",
+                      "inc/schema.h",
+                      "inc/schemalib.h",
+                      "inc/schemaserializer.h",
+                      "inc/serializer.h",
+                      "inc/serializer_devicetwin.h",
+                      "inc/methodreturn.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-fPIC  -Werror -g   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/serializer/../deps/parson"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/serializer/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/inc"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/agenttypesystem.c",
+                      "src/codefirst.c",
+                      "src/commanddecoder.c",
+                      "src/datamarshaller.c",
+                      "src/datapublisher.c",
+                      "src/dataserializer.c",
+                      "src/iotdevice.c",
+                      "src/jsondecoder.c",
+                      "src/jsonencoder.c",
+                      "src/multitree.c",
+                      "src/schema.c",
+                      "src/schemalib.c",
+                      "src/schemaserializer.c",
+                      "src/methodreturn.c"
+                    ]
+                  }
+                ],
+                "fullName": "libserializer.a",
+                "linkerLanguage": "C",
+                "name": "serializer",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/serializer",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/libiothub_client.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/iothub.h",
+                      "inc/iothub_client_core.h",
+                      "inc/iothub_client_core_ll.h",
+                      "inc/iothub_client.h",
+                      "inc/iothub_client_core_common.h",
+                      "inc/iothub_client_ll.h",
+                      "inc/internal/iothub_client_diagnostic.h",
+                      "inc/iothub_client_options.h",
+                      "inc/internal/iothub_client_private.h",
+                      "inc/iothub_client_version.h",
+                      "inc/iothub_device_client.h",
+                      "inc/iothub_device_client_ll.h",
+                      "inc/iothub_module_client.h",
+                      "inc/iothub_module_client_ll.h",
+                      "inc/iothub_transport_ll.h",
+                      "inc/iothub_message.h",
+                      "inc/internal/iothubtransport.h",
+                      "inc/internal/blob.h",
+                      "inc/internal/iothub_client_ll_uploadtoblob.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-fPIC  -Werror -g   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/../deps/parson"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc/internal"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/inc"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/iothub.c",
+                      "src/iothub_client.c",
+                      "src/iothub_client_core.c",
+                      "src/iothub_client_core_ll.c",
+                      "src/iothub_client_diagnostic.c",
+                      "src/iothub_client_ll.c",
+                      "src/iothub_device_client.c",
+                      "src/iothub_device_client_ll.c",
+                      "src/iothub_message.c",
+                      "src/iothub_module_client.c",
+                      "src/iothub_module_client_ll.c",
+                      "src/iothubtransport.c",
+                      "src/version.c",
+                      "src/iothub_client_ll_uploadtoblob.c",
+                      "src/blob.c"
+                    ]
+                  }
+                ],
+                "fullName": "libiothub_client.a",
+                "linkerLanguage": "C",
+                "name": "iothub_client",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/libiothub_client_mqtt_ws_transport.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/internal/iothub_client_authorization.h",
+                      "inc/internal/iothub_client_retry_control.h",
+                      "inc/internal/iothubtransport_mqtt_common.h",
+                      "inc/iothubtransportmqtt_websockets.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-fPIC  -Werror -g   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/../deps/parson"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc/internal"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/inc"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/iothub_client_authorization.c",
+                      "src/iothub_client_retry_control.c",
+                      "src/iothubtransport_mqtt_common.c",
+                      "src/iothubtransportmqtt_websockets.c"
+                    ]
+                  }
+                ],
+                "fullName": "libiothub_client_mqtt_ws_transport.a",
+                "linkerLanguage": "C",
+                "name": "iothub_client_mqtt_ws_transport",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/libiothub_client_mqtt_transport.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/internal/iothub_client_authorization.h",
+                      "inc/internal/iothub_client_retry_control.h",
+                      "inc/internal/iothubtransport_mqtt_common.h",
+                      "inc/iothubtransportmqtt.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-fPIC  -Werror -g   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/../deps/parson"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc/internal"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/inc"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/iothub_client_authorization.c",
+                      "src/iothub_client_retry_control.c",
+                      "src/iothubtransport_mqtt_common.c",
+                      "src/iothubtransportmqtt.c"
+                    ]
+                  }
+                ],
+                "fullName": "libiothub_client_mqtt_transport.a",
+                "linkerLanguage": "C",
+                "name": "iothub_client_mqtt_transport",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/libiothub_client_http_transport.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/internal/iothub_client_authorization.h",
+                      "inc/internal/iothub_client_retry_control.h",
+                      "inc/iothubtransporthttp.h",
+                      "inc/iothub_transport_ll.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-fPIC  -Werror -g   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/../deps/parson"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client/inc/internal"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/inc"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/iothub_client_authorization.c",
+                      "src/iothub_client_retry_control.c",
+                      "src/iothubtransporthttp.c"
+                    ]
+                  }
+                ],
+                "fullName": "libiothub_client_http_transport.a",
+                "linkerLanguage": "C",
+                "name": "iothub_client_http_transport",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/iothub_client",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/libparson.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "deps/parson/parson.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-fPIC  -Werror -g  ",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "deps/parson/parson.c"
+                    ]
+                  }
+                ],
+                "fullName": "libparson.a",
+                "linkerLanguage": "C",
+                "name": "parson",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/libaziotsharedutil.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/azure_c_shared_utility/agenttime.h",
+                      "inc/azure_c_shared_utility/base32.h",
+                      "inc/azure_c_shared_utility/base64.h",
+                      "inc/azure_c_shared_utility/buffer_.h",
+                      "inc/azure_c_shared_utility/connection_string_parser.h",
+                      "inc/azure_c_shared_utility/crt_abstractions.h",
+                      "inc/azure_c_shared_utility/constmap.h",
+                      "inc/azure_c_shared_utility/condition.h",
+                      "inc/azure_c_shared_utility/const_defines.h",
+                      "inc/azure_c_shared_utility/consolelogger.h",
+                      "inc/azure_c_shared_utility/doublylinkedlist.h",
+                      "inc/azure_c_shared_utility/envvariable.h",
+                      "inc/azure_c_shared_utility/gballoc.h",
+                      "inc/azure_c_shared_utility/gbnetwork.h",
+                      "inc/azure_c_shared_utility/gb_stdio.h",
+                      "inc/azure_c_shared_utility/gb_time.h",
+                      "inc/azure_c_shared_utility/gb_rand.h",
+                      "inc/azure_c_shared_utility/hmac.h",
+                      "inc/azure_c_shared_utility/hmacsha256.h",
+                      "inc/azure_c_shared_utility/http_proxy_io.h",
+                      "inc/azure_c_shared_utility/singlylinkedlist.h",
+                      "inc/azure_c_shared_utility/lock.h",
+                      "inc/azure_c_shared_utility/macro_utils.h",
+                      "inc/azure_c_shared_utility/map.h",
+                      "inc/azure_c_shared_utility/optimize_size.h",
+                      "inc/azure_c_shared_utility/platform.h",
+                      "inc/azure_c_shared_utility/refcount.h",
+                      "inc/azure_c_shared_utility/sastoken.h",
+                      "inc/azure_c_shared_utility/sha-private.h",
+                      "inc/azure_c_shared_utility/shared_util_options.h",
+                      "inc/azure_c_shared_utility/sha.h",
+                      "inc/azure_c_shared_utility/socketio.h",
+                      "inc/azure_c_shared_utility/stdint_ce6.h",
+                      "inc/azure_c_shared_utility/strings.h",
+                      "inc/azure_c_shared_utility/strings_types.h",
+                      "inc/azure_c_shared_utility/string_tokenizer.h",
+                      "inc/azure_c_shared_utility/string_tokenizer_types.h",
+                      "inc/azure_c_shared_utility/tlsio_options.h",
+                      "inc/azure_c_shared_utility/tickcounter.h",
+                      "inc/azure_c_shared_utility/threadapi.h",
+                      "inc/azure_c_shared_utility/xio.h",
+                      "inc/azure_c_shared_utility/umock_c_prod.h",
+                      "inc/azure_c_shared_utility/uniqueid.h",
+                      "inc/azure_c_shared_utility/uuid.h",
+                      "inc/azure_c_shared_utility/urlencode.h",
+                      "inc/azure_c_shared_utility/vector.h",
+                      "inc/azure_c_shared_utility/vector_types.h",
+                      "inc/azure_c_shared_utility/vector_types_internal.h",
+                      "inc/azure_c_shared_utility/xlogging.h",
+                      "inc/azure_c_shared_utility/constbuffer.h",
+                      "inc/azure_c_shared_utility/tlsio.h",
+                      "inc/azure_c_shared_utility/optionhandler.h",
+                      "adapters/linux_time.h",
+                      "inc/azure_c_shared_utility/wsio.h",
+                      "inc/azure_c_shared_utility/uws_client.h",
+                      "inc/azure_c_shared_utility/uws_frame_encoder.h",
+                      "inc/azure_c_shared_utility/utf8_checker.h",
+                      "inc/azure_c_shared_utility/httpapi.h",
+                      "inc/azure_c_shared_utility/httpapiex.h",
+                      "inc/azure_c_shared_utility/httpapiexsas.h",
+                      "inc/azure_c_shared_utility/httpheaders.h",
+                      "inc/azure_c_shared_utility/tlsio_openssl.h",
+                      "inc/azure_c_shared_utility/x509_openssl.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-D_POSIX_C_SOURCE=200112L -fPIC  -Werror -Werror -Werror -Wall -Wextra -Wformat=2 -Wformat-security -DUSE_OPENSSL -Wno-unused-variable -Wno-missing-braces -Wno-missing-field-initializers -Wno-format-nonliteral -g -fPIC   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/usr/include/arm-linux-gnueabihf"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/base32.c",
+                      "src/base64.c",
+                      "src/buffer.c",
+                      "src/connection_string_parser.c",
+                      "src/constbuffer.c",
+                      "src/consolelogger.c",
+                      "src/crt_abstractions.c",
+                      "src/constmap.c",
+                      "src/doublylinkedlist.c",
+                      "src/gballoc.c",
+                      "src/gbnetwork.c",
+                      "src/gb_stdio.c",
+                      "src/gb_time.c",
+                      "src/gb_rand.c",
+                      "src/hmac.c",
+                      "src/hmacsha256.c",
+                      "src/http_proxy_io.c",
+                      "src/xio.c",
+                      "src/singlylinkedlist.c",
+                      "src/map.c",
+                      "src/sastoken.c",
+                      "src/sha1.c",
+                      "src/sha224.c",
+                      "src/sha384-512.c",
+                      "src/strings.c",
+                      "src/string_tokenizer.c",
+                      "src/uuid.c",
+                      "src/urlencode.c",
+                      "src/usha.c",
+                      "src/vector.c",
+                      "src/xlogging.c",
+                      "src/optionhandler.c",
+                      "adapters/agenttime.c",
+                      "adapters/condition_pthreads.c",
+                      "adapters/lock_pthreads.c",
+                      "adapters/platform_linux.c",
+                      "adapters/socketio_berkeley.c",
+                      "adapters/tickcounter_linux.c",
+                      "adapters/threadapi_pthreads.c",
+                      "adapters/uniqueid_linux.c",
+                      "adapters/envvariable.c",
+                      "adapters/linux_time.c",
+                      "src/httpapiex.c",
+                      "src/httpapiexsas.c",
+                      "src/httpheaders.c",
+                      "adapters/httpapi_curl.c",
+                      "adapters/tlsio_openssl.c",
+                      "adapters/x509_openssl.c",
+                      "src/wsio.c",
+                      "src/uws_client.c",
+                      "src/uws_frame_encoder.c",
+                      "src/utf8_checker.c"
+                    ]
+                  }
+                ],
+                "fullName": "libaziotsharedutil.a",
+                "linkerLanguage": "C",
+                "name": "aziotsharedutil",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility",
+                "type": "STATIC_LIBRARY"
+              },
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/libumqtt.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/azure_umqtt_c/mqtt_client.h",
+                      "inc/azure_umqtt_c/mqtt_codec.h",
+                      "inc/azure_umqtt_c/mqttconst.h",
+                      "inc/azure_umqtt_c/mqtt_message.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-D_POSIX_C_SOURCE=200112L -fPIC  -Werror -Werror -Werror -g -fPIC   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/deps/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/deps/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/mqtt_client.c",
+                      "src/mqtt_codec.c",
+                      "src/mqtt_message.c"
+                    ]
+                  }
+                ],
+                "fullName": "libumqtt.a",
+                "linkerLanguage": "C",
+                "name": "umqtt",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt",
+                "type": "STATIC_LIBRARY"
+              }
+            ]
+          },
+          {
+            "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp",
+            "name": "uhttp",
+            "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp",
+            "targets": [
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/libuhttp.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/azure_uhttp_c/uhttp.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-D_POSIX_C_SOURCE=200112L -fPIC  -Werror -Werror -Werror -DUSE_OPENSSL -g -fPIC   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1",
+                      "USE_OPENSSL"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/deps/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp/./inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/uhttp.c"
+                    ]
+                  }
+                ],
+                "fullName": "libuhttp.a",
+                "linkerLanguage": "C",
+                "name": "uhttp",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/deps/uhttp",
+                "type": "STATIC_LIBRARY"
+              }
+            ]
+          },
+          {
+            "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt",
+            "name": "umqtt",
+            "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt",
+            "targets": [
+              {
+                "artifacts": [
+                  "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/libumqtt.a"
+                ],
+                "buildDirectory": "/home/pi/Source/ADXL355_AzureIoT/build/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt",
+                "fileGroups": [
+                  {
+                    "isGenerated": false,
+                    "sources": [
+                      "inc/azure_umqtt_c/mqtt_client.h",
+                      "inc/azure_umqtt_c/mqtt_codec.h",
+                      "inc/azure_umqtt_c/mqttconst.h",
+                      "inc/azure_umqtt_c/mqtt_message.h"
+                    ]
+                  },
+                  {
+                    "compileFlags": "-D_POSIX_C_SOURCE=200112L -fPIC  -Werror -Werror -Werror -g -fPIC   -std=gnu99",
+                    "defines": [
+                      "ARCHITECTURE_ARM=1"
+                    ],
+                    "includePath": [
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/deps/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/deps/c-utility/pal/linux"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/inc"
+                      },
+                      {
+                        "path": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/c-utility/pal/linux"
+                      }
+                    ],
+                    "isGenerated": false,
+                    "language": "C",
+                    "sources": [
+                      "src/mqtt_client.c",
+                      "src/mqtt_codec.c",
+                      "src/mqtt_message.c"
+                    ]
+                  }
+                ],
+                "fullName": "libumqtt.a",
+                "linkerLanguage": "C",
+                "name": "umqtt",
+                "sourceDirectory": "/home/pi/Source/ADXL355_AzureIoT/Azure-IoT-CPP-Wrapper/azure-iot-sdk-c/umqtt",
+                "type": "STATIC_LIBRARY"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "cookie": "0.2375732346983448",
+    "inReplyTo": "codemodel",
+    "type": "reply"
+  }
+}
